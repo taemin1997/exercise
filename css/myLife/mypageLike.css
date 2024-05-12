@@ -1,0 +1,38 @@
+.like-list-box{
+  background-color: aquamarine;
+  height: 760px;
+}
+.like-paragraph{
+  background-color: lightblue;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+.like-paragraph p{
+  font-size: 22px;
+  font-weight: bolder;
+}
+.like-list{
+  background-color: lightcyan;
+  display: flex;
+  justify-content: space-between;
+  height: 560px;
+}
+.like-contents-left{
+  background-color: lightgray;
+  border-radius: 6px;
+  width: 450px;
+}
+.like-contents-right{
+  background-color: khaki;
+  border-radius: 6px;
+  width: 450px;
+}
+.like-pagination-buttons{
+  background-color: lightcoral;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

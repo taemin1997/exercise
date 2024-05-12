@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./../../css/notion.css" />
+    <link rel="stylesheet" href="./../../css/reset.css" />
+    <link rel="stylesheet" href="./../../css/myLife/mypageEditMemberInformation.css">
+  </head>
+  <body>
+
+
+
+
+    <div id="wrapper">
+      <header>header</header>
+      <main>
+        <div class="container">
+          
+          <form action="" class="edit-form">
+          <div class="banner">
+            <div class="edit-member-paragraph">
+              <p>회원 정보 수정</p>
+            </div>
+
+            <hr class="edit-hr-top">
+            
+            <!-- 이미지 변경 div -->
+            <div class="edit-img-change">
+              <p class="edit-img-p1">이미지 변경</p>
+              <p class="edit-img-p2">프로필 이미지 변경</p>
+              <div class="edit-img-box">
+                <img src="./../../img/myLife/background.jpg" alt="프로필 이미지">
+                <button class="edit-img-button-change">이미지 변경</button>
+                <button class="edit-img-button-delete">삭제</button>
+              </div>
+            </div>
+
+            <hr class="edit-hr-img-change">
+
+            <div class="edit-back-img-change">
+              <p>배경 이미지 변경</p>
+              <div class="edit-back-img-box">
+                <img src="./../../img/myLife/background.jpg" alt="프로필 이미지">
+                <button class="edit-back-img-button-change">이미지 변경</button>
+                <button class="edit-back-img-button-delete">삭제</button>
+              </div>
+            </div>
+
+            <hr class="edit-hr-back-img-change">
+
+
+            <!-- 아이디  -->
+            <div class="edit-id-box">
+              <p>아이디</p>
+              <form action="">
+                <div class="edit-id-form-div">
+                  <input type="text" value="14px로 들어갑니다. 13px이어도 괜찮을거같구요">
+                <button class="edit-id-button">중복확인</button>
+                </div>
+              </form>
+            </div>
+          
+
+            <hr class="edit-hr-id">
+
+
+            <!-- 비밀번호 , 비밀번호 확인 -->
+            <div class="edit-password-box">
+              <p>비밀번호</p>
+              <input type="text" value="영문,숫자 포함 8자 이상으로 입력해주세요">
+            </div>
+
+            <hr class="edit-hr-password">
+
+
+
+            <div class="edit-password-check-box">
+              <p>비밀번호 확인</p>
+              <input type="text" value="영문,숫자 포함 8자 이상으로 입력해주세요">
+            </div>
+            
+            <hr class="edit-hr-password-check">
+
+
+            <!-- 닉네임 -->
+            <div class="edit-nickname-box">
+              <p>닉네임</p>
+              <form action="">
+                <div class="edit-nickname-form-div">
+                  <input type="text">
+                  <button class="edit-nickname-button">중복확인</button>
+                </div>
+              </form>
+            </div>
+            
+            <hr class="edit-hr-nickname">
+
+            <!-- 이메일,연락처 (수정불가) -->
+            <div class="edit-email-box">
+              <p>이메일(수정불가)</p>
+              <p class="edit-email-paragraph">oneshot @ gmail.com</p>
+            </div>
+
+            <hr class="edit-hr-email">
+
+            <div class="edit-phone-box">
+              <p>연락처(수정불가)</p>
+              <p class="edit-phone-paragraph">010-3399-9876</p>
+            </div>
+
+            <hr class="edit-hr-phone">
+
+            <!-- 생년월일 -->
+            <div class="edit-birth-box">
+              <p>생년월일</p>
+              <div>
+                <input class="edit-birth-year" type="text" oninput="this.value = this.value.replace(/[^0-9]/g, '')" maxlength="4">년
+                <select name="month" class="edit-birth-month">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>월
+                <select class="edit-birth-day" name="day">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="12">13</option>
+                  <option value="12">14</option>
+                  <option value="12">15</option>
+                  <option value="12">16</option>
+                  <option value="12">17</option>
+                  <option value="12">18</option>
+                  <option value="12">19</option>
+                  <option value="12">20</option>
+                  <option value="12">21</option>
+                  <option value="12">22</option>
+                  <option value="12">23</option>
+                  <option value="12">24</option>
+                  <option value="12">25</option>
+                  <option value="12">26</option>
+                  <option value="12">27</option>
+                  <option value="12">28</option>
+                  <option value="12">29</option>
+                  <option value="12">30</option>
+                  <option value="12">31</option>
+                </select>일
+              </div>
+            </div>
+
+            <hr class="edit-hr-birth">
+
+            <div class="edit-save-box">
+              <button class="edit-save-button">저장</button>
+              <button class="edit-back-button">나가기</button>
+            </div>
+
+
+          </div>
+          </form>
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </main>
+
+      <footer>footer</footer>
+    </div>
+
+
+
+
+
+
+
+  </body>
+</html>
