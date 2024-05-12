@@ -1,0 +1,23 @@
+body{
+  width: 350px;
+  margin: 0 auto;
+
+}
+
+.top{
+  margin-top: 110px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+
+.id > p{
+ font-size: 15px;
+}
+
+#textId{
+  background-color: beige;
+  width: 350px;
+  height: 50px;
+}
+
+
