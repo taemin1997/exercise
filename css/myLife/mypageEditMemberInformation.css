@@ -34,7 +34,7 @@
 
 /* 이미지 변경 */
 .edit-img-change{
-  background-color: lightpink;
+  /* background-color: lightpink; */
   height: 272px;
   width: 600px;
 }
@@ -89,7 +89,7 @@
 
 /* 배경 이미지 변경 */
 .edit-back-img-change{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 300px;
   width: 600px;
 }
@@ -139,35 +139,16 @@
 
 /* 아이디 수정 */
 .edit-id-box{
-  background-color: lightseagreen;
-  height: 70px;
+  /* background-color: lightseagreen; */
+  height: 60px;
   width: 600px;
-}
-.edit-id-form-div{
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
 }
-.edit-id-box p{
-  margin-bottom: 10px;
-}
-.edit-id-box input{
-  border: 1px solid grey;
-  border-radius: 6px;
-  height: 43px;
-  width: 475px;
-  padding-left: 20px; 
-}
-.edit-id-button{
-  background-color: rgb(167, 128, 77);
-  color: rgb(243, 240, 240);
-  font-size: 16px;
-  font-weight: bolder;
-  border-radius: 6px;
-  border: none;
-  height: 43px;
-  width: 94px;
-  cursor: pointer;
-
+.edit-id-paragraph{
+  font-weight: bolder ;
+  margin-left: 20px;
 }
 .edit-hr-id{
   width: 600px;
@@ -180,7 +161,7 @@
 
 /* 비밀번호 */
 .edit-password-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 70px;
   width: 600px;
 }
@@ -207,7 +188,7 @@
 
 /* 비밀번호 확인 */
 .edit-password-check-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 70px;
   width: 600px;
 }
@@ -235,7 +216,7 @@
 
 /* 닉네임 */
 .edit-nickname-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 70px;
   width: 600px;
 }
@@ -275,7 +256,7 @@
 
 /* 이메일  */
 .edit-email-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 60px;
   width: 600px;
   display: flex;
@@ -296,7 +277,7 @@
 
 /* 연락처 */
 .edit-phone-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 60px;
   width: 600px;
   display: flex;
@@ -318,7 +299,7 @@
 
 /* 생년월일 */
 .edit-birth-box{
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
   height: 70px;
   width: 600px;
   display: flex;
@@ -335,6 +316,10 @@
 }
 .edit-birth-day, .edit-birth-month{
   margin-left: 10px;
+  padding-left: 20px;
+}
+.edit-birth-year{
+  padding-left: 40px;
 }
 .edit-hr-birth{
   width: 600px;
@@ -349,7 +334,7 @@
 
 /* 저장 나가기 */
 .edit-save-box{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   width: 600px;
   height: 150px;
   display: flex;
@@ -357,9 +342,6 @@
 }
 .edit-save-button{
   background-color: rgb(45, 57, 79);
-  font-size: 15px;
-  font-weight: bolder;
-  color: aliceblue;
   width: 80px;
   height: 30px;
   border-radius: 6px;
@@ -367,16 +349,23 @@
   margin-right: 5px;
   cursor: pointer;
 }
-.edit-back-button{
-  background-color: rgb(153, 155, 160);
+.edit-save-button a{
   font-size: 15px;
   font-weight: bolder;
-  color: rgb(28, 30, 32);
+  color: aliceblue;
+}
+.edit-back-button{
+  background-color: rgb(153, 155, 160);
   width: 80px;
   height: 30px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
+}
+.edit-back-button a{
+  font-size: 15px;
+  font-weight: bolder;
+  color: rgb(28, 30, 32);
 }
 .edit-save-button, .edit-back-button{
   margin-top: 30px;

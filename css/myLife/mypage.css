@@ -38,6 +38,7 @@ header {
 
 .profile-background > img{
   width: 100%;
+  border-radius: 6px 6px 0 0;
 }
 
 .profile{
@@ -59,16 +60,23 @@ header {
 .profile-detail{
   display: flex;
   align-items: center;
+  height: 36px;
 }
 
 .profile-detail  > p{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding-right: 15px;
   font-size: 25px;
   color: white;
-  
+  height: 100%;
+}
+.profile-heart img{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
 }
 
 .follower{
@@ -90,6 +98,7 @@ header {
 .profile-introduce{
   width: 600px;
   /* margin-top: ; */
+  margin-left: 40px;
 }
 
 .profile-introduce > p{
@@ -105,7 +114,8 @@ header {
   width: 90px;
   height: 35px;
   color: white;
-  background-color: navy;
+  background-color: #4C6791;
+  border: none;
   border-radius: 10px;
 }
 

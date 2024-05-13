@@ -1,3 +1,172 @@
+.profile-background{
+  position: relative;
+}
+
+.profile-background > img{
+  width: 100%;
+  border-radius: 6px 6px 0 0;
+}
+
+.profile{
+  position: absolute;
+  top: 90px; 
+  /* width: 100px; */
+  display: flex;
+  align-items: center;
+  margin-left: 25px;  
+}
+
+.profile > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+.profile-detail{
+  display: flex;
+  align-items: center;
+  height: 36px;
+}
+
+.profile-detail  > p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15px;
+  font-size: 25px;
+  color: white;
+  height: 100%;
+}
+
+.follower{
+  font-size: 12px;
+}
+
+.follower-number{
+  font-size: 18px;
+}
+
+.profile-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin-left: 120px;
+  margin-top: 10px;
+}
+
+.profile-heart img{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
+.profile-introduce{
+  width: 600px;
+  /* margin-top: ; */
+  margin-left: 40px;
+}
+
+.profile-introduce > p{
+  margin: 0;
+  line-height: 2;
+}
+
+.write-button{
+  
+}
+
+.write-button > button{
+  width: 90px;
+  height: 35px;
+  color: white;
+  background-color: #4c6791;
+  border:none;
+  border-radius: 10px;
+}
+
+.second-container{
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.second-container-comment{
+  background-color: #e5f2f7;
+  height: 27px;
+  width: 120px;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-container-comment > a{
+  font-weight: 900;
+  font-size: 13px;
+  color: black;
+}
+
+.second-container-like{
+  background-color: #e5f2f7;
+  height: 27px;
+  width: 100px;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-container-like > a{
+  font-weight: 900;
+  font-size: 13px;
+  color: black;
+  
+}
+
+.second-container-user{
+  background-color: #e5f2f7;
+  height: 27px;
+  width: 120px;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-container-user > a{
+  font-weight: 900;
+  font-size: 13px;
+  color: black;
+  
+}
+
+.second-container-alarm{
+  background-color: #e5f2f7;
+  height: 27px;
+  width: 80px;
+  border-radius: 5px;
+  margin-right: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.second-container-alarm > a{
+  font-weight: 900;
+  font-size: 13px;
+  color: black;
+  
+}
+
+hr{
+  opacity: 0.3
+}
+
+
 /* 
 
 수정해야할 내용
@@ -13,13 +182,13 @@
 /* 좋아요 목록 큰 박스 */
 
 .like-list-box{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 760px;
 }
 
 /* 좋아요 목록 제목 박스 */
 .like-paragraph{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -32,7 +201,7 @@
 
 /* 좋아요 박스  */
 .like-list{
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   display: flex;
   justify-content: space-between;
   height: 575px;
@@ -43,12 +212,12 @@
 }
 /* 좋아요 왼쪽 박스 */
 .like-contents-left{
-  background-color: lightgray;
+  /* background-color: lightgray; */
   border-radius: 6px;
   width: 450px;
 }
 .like-contents-left li{
-  background-color: rgb(232, 227, 227);
+  background-color: #F2F3F2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,8 +233,8 @@
 .like-content-left-list img{
   width: 15px;
 }
-.like-content-left-list img, p{
-  margin-right: 5px;
+.like-content-left-list img,.like-content-left-list  p{
+  margin-right: 10px;
   margin-left: 10px;
 }
 .like-content-left-nickname{
@@ -87,12 +256,12 @@
 
 /* 좋아요 오른쪽 박스 */
 .like-contents-right{
-  background-color: khaki;
+  background-color: #F2F3F2;
   border-radius: 6px;
   width: 450px;
 }
 .like-contents-right li{
-  background-color: rgb(232, 227, 227);
+  /* background-color: rgb(232, 227, 227); */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -110,7 +279,7 @@
   /* width: 100%; */
   align-items: center;
 }
-.like-content-left-list-2 img, p{
+.like-content-left-list-2 img, .like-content-left-list-2 p{
   margin-right: 5px;
   margin-left: 10px;
 }
@@ -124,7 +293,7 @@
 
 /* 페이지 네이션 박스 */
 .like-pagination-buttons{
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   height: 100px;
   display: flex;
   align-items: center;
