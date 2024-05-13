@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./../../css/reset.css">
     <link rel="stylesheet" href="./../../css/notion.css">
     <link rel="stylesheet" href="./../../css/community/inquiry.css">
+    <script defer src="./../../js/community/inquiry.js"></script>
 </head>
 <body>
     <div class="inquiry-container container">
@@ -21,7 +22,26 @@
                 <span class="inquiry-button">
                     <button type="button">문의하기</button>
                 </span>
-                <div class="inquiry-modal"></div>
+                <div class="inquiry-modal">
+                    <form action="#">
+                        <div class="inquiry-modal-title">
+                            <input type="text" name="" placeholder="제목">
+                            <span>
+                                <select name="">
+                                    <option value="visible">공개</option>
+                                    <option value="invisible">비공개</option>
+                                </select>
+                            </span>
+                        </div>
+                        <div class="inquiry-modal-content">
+                            <textarea name="" cols="50" rows="10" placeholder="내용" style="resize: none;"></textarea>
+                        </div>
+                        <div class="inquiry-modal-btns">
+                            <button type="submit">등록</button>
+                            <button type="button">삭제</button>
+                        </div>
+                    </form>
+                </div>
             </div>
             <div class="inquiry-title-hr"><hr></div>
         </div>

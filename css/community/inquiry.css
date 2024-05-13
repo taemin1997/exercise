@@ -36,10 +36,22 @@ button[type="button"]:hover{
 .inquiry-modal{
     width: 600px;
     height: 400px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: absolute;
     right: 16%;
-    background-color: white;
+    background-color: aliceblue;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding-top: 60px;
+}
+.inquiry-modal-title span{
+    float: right;
+}
+.inquiry-modal-content{
+    margin-top: 30px;
 }
 .inquiry-selector button{
     height: 100%;
