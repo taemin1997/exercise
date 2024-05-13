@@ -42,7 +42,7 @@ footer {
   max-width: 1000px;
   width: 1000px;
   background-color: #fcfaf7; /* 다 해보고 지저분해보이면 뺄 예정 */
-   /* height: 1000px; 임의로 준 것, 실제론 지우세요  */
+
   box-sizing: border-box;
   padding: 40px;
   min-width: 1000px;
