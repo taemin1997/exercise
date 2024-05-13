@@ -10,7 +10,7 @@
   height: 100px;
 }
 .comment-paragraph p{
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bolder;
 }
 .commet-list-article{
@@ -27,7 +27,7 @@
 }
 .comment-lists {
   display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 56px;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@
   margin-right: 10px;
 }
 .comment-pagination-buttons{
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   height: 150px;
   display: flex;
   align-items: center;

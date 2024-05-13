@@ -10,7 +10,7 @@
   height: 100px;
 }
 .notification-paragraph p{
-  font-size: 22px;
+  font-size: 25px;
   font-weight: bolder;
 }
 .notification-list-article{
@@ -25,16 +25,31 @@
   width: 920px;
   height: 560px;
 }
-.notification-lists {
+.notification-lists-complaint {
   display: flex;
-  background-color: aqua;
+  background-color: rgb(218, 246, 177);
   height: 56px;
   justify-content: space-between;
   align-items: center;
 }
-.notification-lists img{
+.notification-lists-complaint img{
   height: 30px;
   width: 30px;
+}
+.notification-lists-follow{
+  display: flex;
+  background-color: rgb(233, 246, 199);
+  height: 56px;
+  justify-content: space-between;
+  align-items: center;
+}
+.notification-lists-follow img{
+  height: 30px;
+  width: 30px;
+}
+.notification-follow-nickname{
+  font-weight: bolder;
+  white-space: pre-wrap;
 }
 .notification-list-left{
   justify-content: space-between;
@@ -44,6 +59,10 @@
 .notification-list-left p , img{
   margin-left: 10px;
   margin-right: 10px;
+}
+.notification-list-left span{
+  margin-left: 10px;
+  margin-right: 5px;
 }
 .notification-list-left-why{
   font-weight: bolder;

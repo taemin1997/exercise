@@ -1,7 +1,12 @@
+
+/* 좋아요 목록 큰 박스 */
+
 .like-list-box{
   background-color: aquamarine;
   height: 760px;
 }
+
+/* 좋아요 목록 제목 박스 */
 .like-paragraph{
   background-color: lightblue;
   display: flex; 
@@ -13,26 +18,94 @@
   font-size: 22px;
   font-weight: bolder;
 }
+
+/* 좋아요 박스  */
 .like-list{
   background-color: lightcyan;
   display: flex;
   justify-content: space-between;
-  height: 560px;
+  height: 575px;
+} 
+
+.like-list-hr{
+  border: 1px solid rgb(188, 185, 185);
 }
+/* 좋아요 왼쪽 박스 */
 .like-contents-left{
   background-color: lightgray;
   border-radius: 6px;
   width: 450px;
 }
+.like-contents-left li{
+  background-color: rgb(232, 227, 227);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.like-content-left-list{
+  display: flex;
+  height: 56px;
+  /* width: 100%; */
+  align-items: center;
+}
+.like-content-left-list img, p{
+  margin-right: 5px;
+  margin-left: 10px;
+}
+.like-content-left-nickname{
+  font-weight: bolder ;
+}
+.like-content-left-title{
+  font-weight: bolder;
+}
+
+
+.like-contents-left > li:nth-of-type(1){
+  border-radius: 6px 6px 0 0;
+}
+
+.like-contents-left > li:nth-of-type(10){
+  border-radius: 0 0 6px 6px;
+}
+
+
+/* 좋아요 오른쪽 박스 */
 .like-contents-right{
   background-color: khaki;
   border-radius: 6px;
   width: 450px;
 }
+.like-contents-right li{
+  background-color: rgb(232, 227, 227);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-contents-right > li:nth-of-type(1){
+  border-radius: 6px 6px 0 0;
+}
+
+.like-contents-right > li:nth-of-type(10){
+  border-radius: 0 0 6px 6px;
+}
+
+
+
+/* 페이지 네이션 박스 */
 .like-pagination-buttons{
   background-color: lightcoral;
   height: 100px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
+}
+.like-pagination-buttons-left span a{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.like-pagination-buttons-right span a{
+  margin-left: 5px;
+  margin-right: 5px;
 }
