@@ -1,3 +1,7 @@
+
+
+/* 내가 쓴 댓글 목록  */
+
 .comment-list-box{
   background-color: aquamarine;
   height: 860px;
@@ -13,6 +17,11 @@
   font-size: 25px;
   font-weight: bolder;
 }
+
+
+
+/* 댓글 목록 리스트  */
+
 .commet-list-article{
   background-color: lightcyan;
   /* display: flex; */
@@ -32,9 +41,11 @@
   justify-content: space-between;
   align-items: center;
 }
+
+/* 임의의 말풍선 이미지 나중에 교체해야함  */
 .comment-lists img{
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 .comment-list-left{
   justify-content: space-between;
@@ -53,6 +64,10 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+
+
+
+/* 페이지 네이션 */
 .comment-pagination-buttons{
   /* background-color: lightcoral; */
   height: 150px;

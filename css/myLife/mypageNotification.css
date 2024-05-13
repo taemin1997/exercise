@@ -67,7 +67,10 @@
 .notification-list-left-why{
   font-weight: bolder;
 }
-
+.notification-list-left img{
+  width: 20px;
+  height: 20px;
+}
 .notification-list-right{
   margin-left: 10px;
   margin-right: 10px;
@@ -84,8 +87,8 @@
   margin-right: 10px;
 }
 .notification-pagination-buttons img{
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
 }
 .notification-pagination-button-left{
   transform: scaleX(-1);
