@@ -12,20 +12,29 @@ button[type="button"]:hover{
     height: 1300px;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-    /* justify-content: center; */
 }
 .inquiry-wrap1{
     /* border: 1px solid black; */
     height: 40px;
     margin-bottom: 20px;
+    /* padding-bottom: 20px; */
+    position: relative;
+}
+.inquiry-button{
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 14px;
+}
+.inquiry-button button[type="button"]{
+    font-size: 14px;
 }
 .inquiry-selector{
     margin-bottom: 10px;
 }
 .inquiry-selector button{
     height: 100%;
-    font-size: 28px;
+    font-size: 25px;
     font-weight: bold;
 }
 .inquiry-title button{
@@ -47,8 +56,8 @@ button[type="button"]:hover{
     padding: 0 15px;
     display: flex;
     justify-content: space-between;
-    height: 65px;
-    line-height: 65px;
+    height: 64px;
+    line-height: 64px;
     background-color: white;
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
@@ -56,9 +65,9 @@ button[type="button"]:hover{
     color: black;
 }
 .contents-form{
-    height: 40px;
+    height: 48px;
     background-color: rgba(0, 0, 0, 0.1);
-    line-height: 40px;
+    line-height: 48px;
     border-bottom: none;
 }
 .contents-number{
@@ -80,6 +89,7 @@ button[type="button"]:hover{
     display: flex;
     width: 150px;
     /* border: 1px solid black; */
+    font-size: 14px;
     justify-content: space-around;
 }
 .inquiry-paging a{
@@ -92,10 +102,10 @@ button[type="button"]:hover{
     display: block;
 }
 .inquiry-banner{
-    height: 220px;
+    height: 175px;
 }
 .inquiry-banner img{
     width: 100%;
-    height: 220px;
+    height: 175px;
     border-radius: 6px;
 }
