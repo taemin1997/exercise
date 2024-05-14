@@ -32,9 +32,11 @@
               <p class="edit-img-p1">이미지 변경</p>
               <p class="edit-img-p2">프로필 이미지 변경</p>
               <div class="edit-img-box">
+                <form action="">
                 <img src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
                 <button class="edit-img-button-change">이미지 변경</button>
                 <button class="edit-img-button-delete">삭제</button>
+                </form>
               </div>
             </div>
 
@@ -43,9 +45,11 @@
             <div class="edit-back-img-change">
               <p>배경 이미지 변경</p>
               <div class="edit-back-img-box">
+                <form action="">
                 <img src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
                 <button class="edit-back-img-button-change">이미지 변경</button>
                 <button class="edit-back-img-button-delete">삭제</button>
+                </form>
               </div>
             </div>
 
@@ -54,13 +58,8 @@
 
             <!-- 아이디  -->
             <div class="edit-id-box">
-              <p>아이디</p>
-              <form action="">
-                <div class="edit-id-form-div">
-                  <input type="text" value="14px로 들어갑니다. 13px이어도 괜찮을거같구요">
-                <button class="edit-id-button">중복확인</button>
-                </div>
-              </form>
+              <p>아이디(수정불가)</p>
+              <p class="edit-id-paragraph">mdongjoo</p>
             </div>
           
 
@@ -70,7 +69,7 @@
             <!-- 비밀번호 , 비밀번호 확인 -->
             <div class="edit-password-box">
               <p>비밀번호</p>
-              <input type="text" value="영문,숫자 포함 8자 이상으로 입력해주세요">
+              <input type="text" placeholder="영문,숫자 포함 8자 이상으로 입력해주세요">
             </div>
 
             <hr class="edit-hr-password">
@@ -79,7 +78,7 @@
 
             <div class="edit-password-check-box">
               <p>비밀번호 확인</p>
-              <input type="text" value="영문,숫자 포함 8자 이상으로 입력해주세요">
+              <input type="text" placeholder="영문,숫자 포함 8자 이상으로 입력해주세요">
             </div>
             
             <hr class="edit-hr-password-check">
@@ -90,8 +89,11 @@
               <p>닉네임</p>
               <form action="">
                 <div class="edit-nickname-form-div">
-                  <input type="text">
+                  <form action="">
+                    <!-- placeholder 내용은 임의로 작성하였습니다 -->
+                  <input type="text" placeholder="12자 이내로 작성해주세요">
                   <button class="edit-nickname-button">중복확인</button>
+                </form>
                 </div>
               </form>
             </div>
@@ -171,8 +173,8 @@
             <hr class="edit-hr-birth">
 
             <div class="edit-save-box">
-              <button class="edit-save-button">저장</button>
-              <button class="edit-back-button">나가기</button>
+              <button class="edit-save-button"><a href="./../../HTML/myLife/mypage.html">저장</a></button>
+              <button class="edit-back-button"><a href="./../../HTML/myLife/mypage.html">나가기</a></button>
             </div>
 
 
