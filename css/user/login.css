@@ -3,10 +3,20 @@ body{
   padding : 0;
 }
 
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+/* =====================main================= */
+
 main{
   width: 350px;
   margin: 0 auto;
 }
+/* ===================header================ */
 header {
   text-align: center; /* 내부 요소들을 가운데로 정렬 */
   height: 140px;
@@ -14,23 +24,20 @@ header {
   background-color: #e5f2f7;
 }
 
+/* ==================최상단 */
 .top{
   margin-top: 110px;
   margin-bottom: 90px;
   text-align: center;
+  font-size: 40px;
+  font-weight: bold
 }
 .id{
   font-size: 15px;
   /* background-color: grey; */
 }
 
-
-
-.textId{
-  /* background-color: aqua; */
-  
-}
-
+/* 아이디 비밀번호 입력칸 */
 .textId > input{
   margin-top: 10px;
   margin-bottom: 13px;
@@ -51,10 +58,173 @@ header {
   height: 50px;
 }
 
-footer {
-  background-color: rgb(221, 222, 224);
-  width: 100%;
-  height: 335px;
+.password-find{
+  /* background-color: aqua; */
+  text-align: right;
+
 }
+
+.password-find > a{
+  font-size: 12px;
+  color: rgb(120, 116, 116);
+  font-weight: 100;
+}
+
+.login{
+  margin-top: 50px;
+}
+
+/* 로그인 버튼 */
+.login > button{
+  width: 350px;
+  height: 50px;
+  background-color: #102C57;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.kakao-login > button{
+  margin-top: 15px;
+  width: 350px;
+  height: 50px;
+  background-color: #FEE500;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+/* 회원가입으로 이동 */
+.move-join{
+  margin-top: 90px;
+  margin-bottom: 232px;
+  text-align: center;
+}
+
+.move-join > span{
+  margin-right: 15px;
+  font-size: 15px;
+  color: rgb(151, 149, 147);
+}
+.move-join > a{
+  margin-right: 15px;
+  font-size: 15px;
+  color: rgb(151, 149, 147);
+}
+
+
+/* 1. footer ------------------------------------------- */
+
+footer {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 100%;
+  background-color: #dfdfdf;
+}
+.footer-wrapper {
+  max-width: 1000px;
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.ft-linkbox-ul{
+  display: flex;
+}
+.ft-linkbox-ul li{
+  padding: 15px 20px;
+  font-size: 12px;
+}
+.ft-linkbox-ul li a{
+  color: rgb(78, 78, 78);
+}
+.underline{
+  border-bottom: 0.5px solid rgb(194, 194, 194);
+}
+
+/* 왼쪽 --------------- */
+.ft-info-left{
+  color: rgb(96, 95, 95);
+}
+.ft-info-left div:first-child{
+  font-size: 18px;
+  padding: 20px 0;
+}
+.ft-info-left div:nth-child(2){
+  font-size: 10px;
+  font-weight: normal;
+  margin: 9px 0;
+}
+.ft-info-left div:nth-child(3){
+  font-size: 10px;
+  font-weight: normal;
+  margin: 9px 0;
+}
+.ft-info-left div:nth-child(4){
+  font-size: 10px;
+  font-weight: normal;
+}
+.ft-box1{
+  display: flex;
+  align-items: center;
+  border-radius: 3px;
+  justify-content: center;
+  margin: 20px 0;
+  width: 150px;
+  height: 30px;
+  font-size: 10px;
+  background-color: rgb(211, 211, 211);
+}
+
+/* 가운데 --------------- */
+.ft-info-middle{
+  color: rgb(78, 78, 78);
+}
+.ft-call-number{
+  font-size: 16px;
+  margin: 20px 0;
+  font-weight: 500;
+}
+.ft-call-time{
+  font-size: 10px;
+  font-weight: normal;
+  margin: 9px 0;
+}
+.title-sns{
+  font-size: 11px;
+  font-weight: normal;
+  margin: 20px 0px 9px 0px;
+  font-weight: bold;
+}
+/* 하단 정보 */
+.ft-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-sns{
+  display: flex;
+  align-items: center;
+}
+.sns{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: rgb(199, 199, 199);
+  margin-right: 5px;
+  overflow: hidden;
+}
+
 
 
