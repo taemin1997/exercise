@@ -4,11 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="../../css/main/main.css" />
-    <link rel="stylesheet" href="../../css/fragment/header.css" />
-    <link rel="stylesheet" href="../../css/fragment/footer.css" />
-    <link rel="stylesheet" href="../../css/reset.css" />
+    <title>MAIN</title>
+    <link rel="stylesheet" href="./../../css/main/main.css" />
+    <link rel="stylesheet" href="./../../css/fragment/header.css" />
+    <link rel="stylesheet" href="./../../css/fragment/footer.css" />
+    <link rel="stylesheet" href="./../../css/reset.css" />
   </head>
   <body>
     <div id="wrapper">
@@ -17,23 +17,44 @@
         <div class="header-wrapper">
           <div class="header-left">
             <div class="logo-box">
-              <a href="#"><img src="./../../img/main/timenotion.png" alt="로고 사진 넣어주세요" /></a>
+              <a href="#"
+                ><img src="./../../img/main/timenotion.png" alt="로고 사진 넣어주세요"
+              /></a>
             </div>
             <div class="category-box">
               <ul>
                 <li><a href="#">about</a></li>
                 <li><a href="./../myLife/mypage.html">나의 일대기</a></li>
-                <li><a href="#">너의 일대기</a></li>
-                <li><a href="#">모두의 일대기기</a></li>
+                <li><a href="./../yourLife/yourLife.html">너의 일대기</a></li>
+                <li><a href="./../everyLife/everyLife.html">모두의 일대기</a></li>
               </ul>
             </div>
           </div>
           <div class="header-right">
-            <div class="login-box"></div>
-            <div class="regist-box"></div>
+            <!-- 로그인 전 ----------- -->
+            <div class="login-box">
+              <a href="#" class="login-wrap">
+                <div class="header-img-box"><img src="./../../img/main/로그인.png" alt="" /></div>
+                <span>로그인</span>
+              </a>
+            </div>
+            <div class="regist-box">
+              <a href="#" class="regist-wrap">
+                <div class="header-img-box"><img src="./../../img/main/회원가입.png" alt="" /></div>
+                <span>회원가입</span>
+              </a>
+            </div>
+            <!-- 로그인 후 ------------ .logout-box : display : none -->
+            <div class="logout-box">
+              <a href="#" class="logout-wrap">
+                <div class="logout-img-box"><img src="./../../img/main/로그아웃.png" alt="" /></div>
+                <span>로그아웃</span>
+              </a>
+            </div>
           </div>
         </div>
       </header>
+      <!-- 헤더 끝-========================================================================== -->
 
       <main>
         <div class="container">
@@ -41,21 +62,29 @@
           <div class="main-banner-container bottom">
             <!-- 1-1. 왼쪽 메인배너 -->
             <div class="main-left-wrapper">
-              <img src="./../../img/main/봉준호 (4).jpg" alt="" />
-              <div class="wrap-main-left-text"><span>제 영화 시나리오의 원천이 어디인가</span></div>
-              <div class="wrap-main-left-profile"></div>
+              <a href="#">
+                <img src="./../../img/main/봉준호 (4).jpg" alt="" />
+                <div class="wrap-main-left-text">
+                  <span>제 영화 시나리오의 원천이 어디인가</span>
+                </div>
+                <div class="wrap-main-left-profile"></div>
+              </a>
             </div>
             <!-- 1-1. 오른쪽 메인배너 -->
             <div class="main-right-wrapper">
               <div class="main-top-box">
-                <img src="./../../img/main/봉준호 (3).jpg" alt="" />
-                <div class="wrap-main-top-text">
-                  <span>크기가 애매한건지 위치가 애매한건지</span>
-                </div>
+                <a href="#">
+                  <img src="./../../img/main/봉준호 (3).jpg" alt="" />
+                  <div class="wrap-main-top-text">
+                    <span>크기가 애매한건지 위치가 애매한건지</span>
+                  </div>
+                </a>
               </div>
               <div class="main-bottom-box">
-                <img class="transform" src="./../../img/main/봉준호 (5).jpg" alt="" />
-                <div class="wrap-main-bottom-text"><span># 좀 더 작고 짧게</span></div>
+                <a href="#">
+                  <img class="transform" src="./../../img/main/봉준호 (5).jpg" alt="" />
+                  <div class="wrap-main-bottom-text"><span># 좀 더 작고 짧게</span></div>
+                </a>
               </div>
             </div>
           </div>
@@ -195,9 +224,11 @@
           <!-- 4. 하단 -->
           <div class="sub-banner">
             <div class="sub-banner-wrapper">
-              <img src="./../../img/main/봉준호 (2).jpg" alt="" />
-              <div class="sub-banner-text1"><span>근근한잔이 새롭게 선보이는~</span></div>
-              <div class="sub-banner-text2"><span>나의 일대기 기록 사이트!</span></div>
+              <a href="#">
+                <img src="./../../img/main/봉준호 (2).jpg" alt="" />
+                <div class="sub-banner-text1"><span>근근한잔이 새롭게 선보이는~</span></div>
+                <div class="sub-banner-text2"><span>나의 일대기 기록 사이트!</span></div>
+              </a>
             </div>
           </div>
         </div>

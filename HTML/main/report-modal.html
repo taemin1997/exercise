@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>모달들 디자인</title>
+    <link rel="stylesheet" href="./../../css/reset.css" />
+    <link rel="stylesheet" href="./../../css/main/report-modal.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- /* 1. 신고 모달  --------------------------------------------*/ -->
+    <article>
+      <form class="report">
+        <div class="box-report-input">
+          <div class="report-title-r">신고하기</div>
+          <label for="a"
+            ><input type="radio" name="report-reason" value="" id="a" />욕설 및 비방</label
+          >
+          <label for="b"><input type="radio" name="report-reason" value="" id="b" />스팸</label>
+          <label for="c"><input type="radio" name="report-reason" value="" id="c" />음란물</label>
+          <label for="d"
+            ><input type="radio" name="report-reason" value="" id="d" />중복 게시물 도배</label
+          >
+          <label for="e"
+            ><input type="radio" name="report-reason" value="" id="e" />부정확한 정보</label
+          >
+          <label for="f"><input type="radio" name="report-reason" value="" id="f" />도용</label>
+          <label for="g"
+            ><input type="radio" name="report-reason" value="" id="g" />기타
+            <input
+              type="text"
+              name="report-input"
+              class="report-input"
+              maxlength="100"
+              placeholder="기타 사유를 적어주세요."
+            />
+          </label>
+          <div class="report-btn-box">
+            <button class="report-btn-report">신고하기</button>
+            <button class="report-btn-close">닫기</button>
+          </div>
+        </div>
+      </form>
+    </article>
+  </body>
+  <script>
+    /* 1. 신고 모달  --------------------------------------------*/
+
+    $(document).ready(function () {
+      // 텍스트 입력창을 기본적으로 비활성화
+      $('.report-input').prop('disabled', true);
+
+      $('input[name="report-reason"]').change(function () {
+        if ($('#g').is(':checked')) {
+          $('.report-input').prop('disabled', false); // 활성화
+        } else {
+          $('.report-input').prop('disabled', true); // 비활성화
+        }
+      });
+    });
+  </script>
+</html>
