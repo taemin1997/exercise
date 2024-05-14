@@ -1,7 +1,6 @@
 * {
   padding: 0;
   margin: 0;
-  
 }
 /* #cadb36  #594096 #1c191a*/
 body {
@@ -50,7 +49,6 @@ footer {
   padding: 40px;
 }
 
-
 .bottom {
   margin-bottom: 116px;
 }
@@ -61,6 +59,22 @@ footer {
   height: 337px;
   display: flex;
   justify-content: space-between;
+}
+/* (배너 마우스 hover 효과)  */
+.main-left-wrapper img,
+.main-top-box img,
+.main-bottom-box img,
+.sub-banner-wrapper img {
+  transition: all 0.15s linear; /* 은근하게 커지기 */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.main-left-wrapper img:hover,
+.main-top-box img:hover,
+.main-bottom-box img:hover,
+.sub-banner-wrapper img:hover {
+  transform: scale(1.05, 1.05); /* 마우스 올리면 확대 */
 }
 
 /* 1-1. 왼쪽 메인배너 */
@@ -88,7 +102,7 @@ img {
   color: white;
 }
 
-/* 오른쪽 메인배너 */
+/* 오른쪽 메인배너  =------*/
 .main-right-wrapper {
   width: 322px;
   height: 100%;
@@ -102,6 +116,7 @@ img {
   position: relative;
   overflow: hidden;
 }
+
 .wrap-main-top-text {
   position: absolute;
   bottom: 30px;
@@ -129,6 +144,7 @@ img {
   font-size: 15px;
   color: white;
 }
+
 /* 2. 인기 컨텐츠   ---------------------------------------------------------- */
 /* 2-1. 타이틀 */
 .pop-content-container {
@@ -163,7 +179,7 @@ img {
 }
 
 .wrap-pop-main {
-  background-color: #F7F4F2;
+  background-color: #f7f4f2;
   width: 224px;
   height: 325px;
   overflow: hidden;
@@ -211,7 +227,7 @@ img {
   color: #1b0309;
 }
 /* 컨텐츠 */
-.pop-content{
+.pop-content {
   font-size: 12px;
   line-height: 24px;
   overflow: hidden;
@@ -220,17 +236,16 @@ img {
   white-space: normal; /* 줄넘어가게 */
   color: #050214;
   height: 170px;
-  
 }
 
 /* 3. 인기 키워드 -------------------------------------------------------------------------- */
-.keyword-container{
+.keyword-container {
   margin-bottom: 116px;
   padding-top: 60px;
   display: flex;
 }
 /* 3-1. 왼쪽 */
-.title2{
+.title2 {
   display: flex;
   flex-direction: column;
   width: 204px;
@@ -249,21 +264,21 @@ img {
 }
 /* 3-1. 오른쪽 */
 /* 키워드가 두줄로 들어감 */
-.keyword-right{
+.keyword-right {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.keyword-first-line{
+.keyword-first-line {
   margin-bottom: 10px;
   display: flex;
 }
-.keyword-second-line{
+.keyword-second-line {
   margin-bottom: 10px;
   display: flex;
   margin-left: 70px;
 }
-.keyword{
+.keyword {
   background-color: rgb(225, 243, 221);
   border-radius: 30px;
   padding: 11px 18px;
@@ -272,7 +287,7 @@ img {
   white-space: nowrap;
   cursor: pointer;
 }
-.keyword2{
+.keyword2 {
   background-color: rgb(202, 227, 197);
   border-radius: 30px;
   padding: 11px 18px;
@@ -282,36 +297,36 @@ img {
   cursor: pointer;
 }
 
-.keyword:hover{
+.keyword:hover {
   background-color: rgb(241, 116, 137);
 }
-.keyword2:hover{
+.keyword2:hover {
   background-color: rgb(241, 116, 137);
 }
 
 /* 4. 하단 배너 ------------------------------------------------------------------------ */
-.sub-banner{
+.sub-banner {
   background-color: rgb(241, 241, 241);
   height: 100%;
   width: 100%;
   margin-bottom: 116px;
   position: relative;
 }
-.sub-banner-wrapper{
+.sub-banner-wrapper {
   width: 100%;
   height: 180px;
   border-radius: 6px;
   overflow: hidden;
 }
-.sub-banner-wrapper img{
+.sub-banner-wrapper img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 40%; 
+  object-position: center 40%;
   /* 가로 방향은 중앙, 세로 방향은 위쪽에서 20% 위치에 오도록 조정 */
 }
 /* 배너 위에 이미지  */
-.sub-banner-text1{
+.sub-banner-text1 {
   position: absolute;
   top: 20px;
   left: 20px;
@@ -319,7 +334,7 @@ img {
   font-size: 15px;
   color: rgb(3, 67, 42);
 }
-.sub-banner-text2{
+.sub-banner-text2 {
   position: absolute;
   top: 40px;
   left: 20px;
