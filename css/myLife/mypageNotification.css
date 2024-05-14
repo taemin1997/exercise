@@ -6,6 +6,7 @@
   width: 100%;
   margin-left: 0;
   border-radius: 6px 6px 0 0;
+  height: 165.5px;
 }
 
 .profile{
@@ -27,15 +28,18 @@
 .profile-detail{
   display: flex;
   align-items: center;
+  height: 36px;
 }
 
 .profile-detail  > p{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
   padding-right: 15px;
   font-size: 25px;
   color: white;
+  height: 100%;
   
 }
 
@@ -47,6 +51,11 @@
   font-size: 18px;
 }
 
+.profile-heart img{
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+}
 .profile-text{
   display: flex;
   justify-content: space-between;
@@ -58,6 +67,7 @@
 .profile-introduce{
   width: 600px;
   /* margin-top: ; */
+  margin-left: 40px;
 }
 
 .profile-introduce > p{
@@ -72,11 +82,17 @@
 .write-button > button{
   width: 90px;
   height: 35px;
-  color: white;
-  background-color: navy;
+  color: #D9E9F8;
+  font-weight: bolder;
+  background-color: #4c6791;
+  border: none;
   border-radius: 10px;
 }
-
+.write-button > button:hover{
+  background-color: #D9E9F8;
+  color:#4c6791; ;
+  cursor: pointer;
+}
 .second-container{
   display: flex;
   margin-top: 50px;
@@ -99,7 +115,10 @@
   font-size: 13px;
   color: black;
 }
-
+.second-container-comment:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 .second-container-like{
   background-color: #e5f2f7;
   height: 27px;
@@ -117,7 +136,10 @@
   color: black;
   
 }
-
+.second-container-like:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 .second-container-user{
   background-color: #e5f2f7;
   height: 27px;
@@ -135,7 +157,10 @@
   color: black;
   
 }
-
+.second-container-user:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 .second-container-alarm{
   background-color: #e5f2f7;
   height: 27px;
@@ -153,7 +178,10 @@
   color: black;
   
 }
-
+.second-container-alarm:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 hr{
   opacity: 0.3
 }
@@ -163,11 +191,11 @@ hr{
 
 
 .notification-list-box{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   height: 760px;
 }
 .notification-paragraph{
-  background-color: lightblue;
+  /* background-color: lightblue; */
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -178,20 +206,20 @@ hr{
   font-weight: bolder;
 }
 .notification-list-article{
-  background-color: lightcyan;
+  /* background-color: lightcyan; */
   /* display: flex; */
   justify-content: space-between;
   height: 660px;
 }
 .notification-contents{
-  background-color: lightgray;
+  background-color: #F2F3F2;
   border-radius: 6px;
   width: 920px;
-  height: 560px;
+  height: 580px;
 }
 .notification-lists-complaint {
   display: flex;
-  background-color: rgb(218, 246, 177);
+  /* background-color: rgb(218, 246, 177); */
   height: 56px;
   justify-content: space-between;
   align-items: center;
@@ -202,7 +230,7 @@ hr{
 }
 .notification-lists-follow{
   display: flex;
-  background-color: rgb(233, 246, 199);
+  /* background-color: rgb(233, 246, 199); */
   height: 56px;
   justify-content: space-between;
   align-items: center;
@@ -220,7 +248,7 @@ hr{
   align-items: center;
   display: flex;
 }
-.notification-list-left p , img{
+.notification-list-left p , .notification-list-left img{
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -240,7 +268,7 @@ hr{
   margin-right: 10px;
 }
 .notification-pagination-buttons{
-  background-color: lightcoral;
+  /* background-color: lightcoral; */
   height: 150px;
   display: flex;
   align-items: center;
