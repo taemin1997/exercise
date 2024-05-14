@@ -34,8 +34,8 @@ button[type="button"]:hover{
     position: relative;
 }
 .inquiry-modal{
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 360px;
     /* border: 1px solid black; */
     position: absolute;
     right: 16%;
@@ -45,11 +45,50 @@ button[type="button"]:hover{
     flex-direction: column;
     align-items: center;
     /* justify-content: space-around; */
-    padding-top: 60px;
+    padding-top: 100px;
 }
+.modal-main-img{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.modal-main-img img{
+    width: 120px;
+    height: 60px;
+}
+.inquiry-modal-title input[type="text"]{
+    width: 180px;
+    height: 30px;
+} 
 .inquiry-modal-title span{
     float: right;
 }
+.inquiry-modal-title select{
+    height: 35px;
+}
+.inquiry-modal-btns{
+    margin: 60px auto 0 auto;
+    width: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around ;
+}
+.inquiry-modal-btns button[type="button"]{
+    font-size: 18px;
+    background-color: aliceblue;
+}
+.inquiry-modal-btns button[type="submit"]{
+    font-size: 18px;
+    border: none;
+    background-color: aliceblue;
+}
+.inquiry-modal-btns button[type="button"]:hover{
+    cursor: pointer;
+}
+.inquiry-modal-btns button[type="submit"]:hover{
+    cursor: pointer;
+}
+
 .inquiry-modal-content{
     margin-top: 30px;
 }

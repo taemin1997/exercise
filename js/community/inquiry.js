@@ -10,5 +10,5 @@ console.log(inquiryModal);
 console.log(modalBtn);
 
 modalBtn.addEventListener('click', () => {
-  inquiryModal.style.display = 'block';
+  inquiryModal.style.display = 'flex';
 })
