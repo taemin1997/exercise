@@ -38,6 +38,7 @@ header {
 
 .profile-background > img{
   width: 100%;
+  height: 165.5px;
   border-radius: 6px 6px 0 0;
 }
 
@@ -106,10 +107,6 @@ header {
   line-height: 2;
 }
 
-.write-button{
-  
-}
-
 .write-button > button{
   width: 90px;
   height: 35px;
@@ -117,6 +114,14 @@ header {
   background-color: #4C6791;
   border: none;
   border-radius: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.write-button > button:hover{
+  background-color: #D9E9F8;
+  color:#4c6791; ;
+  cursor: pointer;
 }
 
 .second-container{
@@ -142,6 +147,11 @@ header {
   color: black;
 }
 
+.second-container-comment:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
+
 .second-container-like{
   background-color: #e5f2f7;
   height: 27px;
@@ -158,6 +168,11 @@ header {
   font-size: 13px;
   color: black;
   
+}
+
+.second-container-like:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
 }
 
 .second-container-user{
@@ -178,6 +193,11 @@ header {
   
 }
 
+.second-container-user:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
+
 .second-container-alarm{
   background-color: #e5f2f7;
   height: 27px;
@@ -194,6 +214,11 @@ header {
   font-size: 13px;
   color: black;
   
+}
+
+.second-container-alarm:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
 }
 
 hr{
@@ -222,7 +247,17 @@ hr{
 
 .infancy > a{
   color: black;
+  font-size: 12px;
 }
+
+.infancy:hover{
+  background-color: #AAB286;
+}
+
+.infancy > a:hover{ 
+  color: #E7E9DC;
+}
+
 
 .babyhood{
   background-color: rgb(206, 200, 200);
@@ -237,6 +272,15 @@ hr{
 
 .babyhood > a{
   color: black;
+  font-size: 12px;
+}
+
+.babyhood:hover{
+  background-color: #AAB286;
+}
+
+.babyhood > a:hover{ 
+  color: #E7E9DC;
 }
 
 .childhood{
@@ -252,6 +296,15 @@ hr{
 
 .childhood > a{
   color: black;
+  font-size: 12px;
+}
+
+.childhood:hover{
+  background-color: #AAB286;
+}
+
+.childhood > a:hover{ 
+  color: #E7E9DC;
 }
 
 .adolescence{
@@ -267,6 +320,15 @@ hr{
 
 .adolescence > a{
   color: black;
+  font-size: 12px;
+}
+
+.adolescence:hover{
+  background-color: #AAB286;
+}
+
+.adolescence > a:hover{ 
+  color: #E7E9DC;
 }
 
 .adult{
@@ -282,6 +344,15 @@ hr{
 
 .adult > a{
   color: black;
+  font-size: 12px;
+}
+
+.adult:hover{
+  background-color: #AAB286;
+}
+
+.adult > a:hover{ 
+  color: #E7E9DC;
 }
 
 .middle-age{
@@ -297,6 +368,15 @@ hr{
 
 .middle-age > a{
   color: black;
+  font-size: 12px;
+}
+
+.middle-age:hover{
+  background-color: #AAB286;
+}
+
+.middle-age > a:hover{ 
+  color: #E7E9DC;
 }
 
 .old-age{
@@ -312,6 +392,15 @@ hr{
 
 .old-age > a{
   color: black;
+  font-size: 12px;
+}
+
+.old-age:hover{
+  background-color: #AAB286;
+}
+
+.old-age > a:hover{ 
+  color: #E7E9DC;
 }
 
 .fourth-container{
@@ -342,6 +431,10 @@ hr{
 .list-one-detail{
   margin: 40px 24px 24px 24px;
   
+}
+
+.list-one:hover{
+  background-color: #F2F1F0;
 }
 
 .title{
