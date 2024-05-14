@@ -243,6 +243,9 @@ hr{
   font-weight: bolder;
   white-space: pre-wrap;
 }
+.notification-follow-nickname a{
+  color:black;
+}
 .notification-list-left{
   justify-content: space-between;
   align-items: center;
