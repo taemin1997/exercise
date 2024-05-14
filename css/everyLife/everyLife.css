@@ -1,0 +1,170 @@
+/* 전체 컨테이너 설정 */
+.everyLife-container{
+    margin: 0 auto;
+    padding: 0 40px;
+    height: 1350px;
+} 
+.everyLife-wrap1{
+    height: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.everyLife-select-box{
+    /* border: 1px solid black; */
+    margin-bottom: 12px;
+    align-items: center;
+}
+.everyLife-select-btn{
+    font-size: 16px;
+    /* border: 1px solid black; */
+    width: 60%;
+    display: flex;    
+}
+.everyLife-btn-span{
+    margin-right: 8px;
+    font-size: 16px;
+    margin-right: 20px;
+    width: 100%;
+}
+.everyLife-btn-span button{
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    height: 30px;
+    width: 110%;
+    white-space: nowrap;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.everyLife-btn-span button:hover{
+    cursor: pointer;
+    background-color: khaki;
+}
+.everyLife-select-bar{
+    position: relative;
+    width: 35%;
+    height: 30px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.everyLife-select-bar input[type="text"]{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 6px;
+    border: none;
+}
+.everyLife-magnifier{
+    border: none;
+    position: absolute;
+    right: 1px;
+    top: 6px;
+    background-color: white;
+}
+.everyLife-magnifier img{
+    width: 20px;
+    height: 20px;
+}
+.everyLife-magnifier img:hover{
+    cursor: pointer;
+}
+.everyLife-select-sequence select{
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.everyLife-wrap2{
+    margin-top: 20px;
+}
+.everyLife-select-wrap{
+    margin-bottom: 25px;
+}
+.everyLife-select-box{
+    display: flex;
+    justify-content: space-between;
+}
+.everyLife-content-wrap{
+    /* border: 1px solid black; */
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.everyLife-content-box{
+    width: 100%;
+    display: flex;
+    /* float: left; */
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+.everyLife-content-box a{
+    color: black;
+}
+.everyLife-contents{
+    /* border: 1px solid red; */
+    background-color: #fcfaf7;
+    filter: brightness(0.9);
+    border-radius: 6px;
+    width: 165px;
+    height: 240px;
+    margin-right: 20px;
+}
+.everyLife-contents{
+    padding: 20px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.everyLife-content-title{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.everyLife-content-date{
+    font-size: 10px;
+}
+.everyLife-content-views{
+    font-size: 10px;
+}
+.everyLife-content-writer{
+    display: flex;
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+.everyLife-writer-profile{
+    margin-right: 8px;
+}
+.everyLife-writer-profile img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.everyLife-content-detail{
+    height: 50%;
+    font-size: 14px;
+    line-height: 32px;
+    overflow: hidden;
+}
+.everyLife-paging{
+    margin: 60px auto 0 auto;
+    display: flex;
+    width: 160px;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+}
+.everyLife-paging a{
+    color: black;
+}
+.paging-backward{
+    display: none;
+}
+.paging-forward{
+    display: block;
+}
