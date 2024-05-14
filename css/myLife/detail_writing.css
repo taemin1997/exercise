@@ -126,6 +126,16 @@
         border-radius: 6px;
     }
     
+    .detail_button1:hover {
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+    
+    .detail_button2:hover {
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+    
     #detail_button_2 {
         color: black;
         font-weight: bold;

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>detail_writing</title>
+    <link rel="stylesheet" href="./../../css/myLife/detail_writing.css" />
+    <link rel="stylesheet" href="./../../css/reset.css" />
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- 헤더~~!!!!!!!!!!!!!!!!!!! -->
+        <header>
+            <div class="header-wrapper">
+                <div class="header-left">
+                    <div class="logo-box">
+                        <a href="#"><img src="./../../img/main/timenotion.png" alt="로고 사진 넣어주세요" /></a>
+                    </div>
+                    <div class="category-box">
+                        <ul>
+                            <li><a href="#">about</a></li>
+                            <li><a href="./../myLife/mypage.html">나의 일대기</a></li>
+                            <li><a href="./../yourLife/yourLife.html">너의 일대기</a></li>
+                            <li><a href="./../everyLife/everyLife.html">모두의 일대기</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="header-right">
+                    <!-- 로그인 전 ----------- -->
+                    <div class="login-box">
+                        <a href="#" class="login-wrap">
+                            <div class="header-img-box"><img src="./../../img/main/로그인.png" alt="" /></div>
+                            <span>로그인</span>
+                        </a>
+                    </div>
+                    <div class="regist-box">
+                        <a href="#" class="regist-wrap">
+                            <div class="header-img-box"><img src="./../../img/main/회원가입.png" alt="" /></div>
+                            <span>회원가입</span>
+                        </a>
+                    </div>
+                    <!-- 로그인 후 ------------ .logout-box : display : none -->
+                    <div class="logout-box">
+                        <a href="#" class="logout-wrap">
+                            <div class="logout-img-box"><img src="./../../img/main/로그아웃.png" alt="" /></div>
+                            <span>로그아웃</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- 헤더 끝-========================================================================== -->
+        <main>
+            <!-- 메인 컨텐츠 영역 -->
+            <div class="container">
+                <div class="detail_page3_1">
+                    <h1 class="detial_page3_1_1"> 즐거운 여름날 나의 하루~</h1>
+                </div>
+                <div class="detail_page3_2">
+                    <select id="detail_year" name="year2">  
+                     <option value="1997">1997</option>
+                     <option value="1998">1998</option>
+                     <option value="1999">1999</option>
+                    </select>
+                    <p class="detail_page3_year">년</p>
+                    <select id="detail_visibility" name="visibility">
+                       <option value="public">공개</option>
+                       <option value="private">비공개</option>
+ 		            </select>
+                </div>
+                <hr>
+                <div class="detail_page3_3">
+                    <textarea id="detail_text" name="text" placeholder="텍스트입력"></textarea>
+                </div>
+                <hr>
+                <div class="detail_page3_4">
+                    <button type="submit" class="detail_button1"><a id="detail_button_1" href="http://127.0.0.1:5501/HTML/myLife/detail_writer.html">저장</a></button>
+                    <button type="button" class="detail_button2" onclick="window.history.back();"><a id="detail_button_2" href="http://127.0.0.1:5501/HTML/myLife/detail_writer.html">취소</a></button>
+                </div>
+            </div>
+            <div class="period">
+                <ul class="period_1">
+                    <li class="period_1_color1"><a href="#">유아기</a></li>
+                    <li class="period_1_color2"><a href="#">유년기</a></li>
+                    <li class="period_1_color3"><a href="">아동기</a></li>
+                    <li class="period_1_color4"><a href="">청소년</a></li>
+                    <li class="period_1_color5"><a href="">성인</a></li>
+                    <li class="period_1_color6"><a href="">중년</a></li>
+                    <li class="period_1_color7"><a href="">노년</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <!-- 상단 링크박스 --------------- -->
+                <div class="ft-linkbox">
+                    <ul class="ft-linkbox-ul">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">입점신청</a></li>
+                        <li><a href="#">개인정보 처리방침</a></li>
+                        <li><a href="#">고객문의</a></li>
+                    </ul>
+                </div>
+                <div class="underline"></div>
+                <!-- 하단 정보 ------------------ -->
+                <div class="ft-info">
+                    <!-- 왼쪽 -->
+                    <div class="ft-info-left">
+                        <div>타임노션</div>
+                        <div>
+                            대표 : 근근한잔 | 서울시 강남구 역삼동 테헤란로 어딘가 | 사업자등록번호 334-22-9987
+                        </div>
+                        <div>Email : geungeun-one-shot@gmail.com</div>
+                        <div>추억을 기록하는 사이트, 무언가 제법 있어보이는 사이트</div>
+                        <div class="ft-box1">운영시간 : 월~금 09:00 ~ 18:00</div>
+                    </div>
+                    <!-- 가운데 -->
+                    <div class="ft-info-middle">
+                        <div class="ft-call-number">고객센터 1588-1122</div>
+                        <div class="ft-call-time">운영시간 : 월~금 09:00 ~ 18:00, 주말 휴무</div>
+                        <div class="title-sns">Company SNS</div>
+                        <div class="box-sns">
+                            <div class="sns"><span>instagram</span></div>
+                            <div class="sns"><span>facebook</span></div>
+                            <div class="sns"><span>kakao</span></div>
+                        </div>
+                    </div>
+                    <!-- 오른쪽 -->
+                    <div class="ft-info-right"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
