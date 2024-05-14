@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>모달들 디자인</title>
+    <title>신고 모달</title>
     <link rel="stylesheet" href="./../../css/reset.css" />
     <link rel="stylesheet" href="./../../css/main/report-modal.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -44,6 +44,12 @@
         </div>
       </form>
     </article>
+    <article>
+      <div class="click-report" id="click-report">
+        <button onclick="reportFunc()" id="report-button">신고하기</button>
+      </div>
+    </article>
+    <button onclick="miniClick()" id="dot">점점점</button>
   </body>
   <script>
     /* 1. 신고 모달  --------------------------------------------*/
@@ -60,5 +66,34 @@
         }
       });
     });
+
+    /* 2.  버튼 누르면 신고하기 뜨기 */
+    function miniClick(e) {
+      if ($('#click-report').css('display') == 'none') {
+        $('#click-report').css('display', 'flex');
+      } else {
+        $('#click-report').css('display', 'none');
+      }
+    }
+
+    $(document).on('click', function (e) {
+      if (!e.target.closest('#click-report').length) {
+        $('#click-report').css('display', 'none');
+      }
+    });
+
+    function reportFunc(e){
+      if ($('.report').css('display') == 'none') {
+        $('.report').css('display', 'flex');
+        $('.click-report').css('display', 'none');
+      } 
+   
+    // '.report-btn-close' 클릭 시 팝업 숨기기 이벤트 리스너
+    $('.report-btn-close').on('click', function() {
+        $('.report').css('display', 'none');
+    });
+
+    }
+
   </script>
 </html>
