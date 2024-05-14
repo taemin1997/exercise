@@ -6,6 +6,7 @@
   width: 100%;
   margin-left: 0px;
   border-radius: 6px 6px 0 0;
+  height: 165.5px;
 }
 
 .profile{
@@ -83,10 +84,16 @@
 .write-button > button{
   width: 90px;
   height: 35px;
-  color: white;
+  color: #D9E9F8;
+  font-weight: bolder;
   background-color: #4c6791;
   border: none;
   border-radius: 10px;
+}
+.write-button > button:hover{
+  background-color: #D9E9F8;
+  color:#4c6791; ;
+  cursor: pointer;
 }
 
 .second-container{
@@ -111,6 +118,10 @@
   font-size: 13px;
   color: black;
 }
+.second-container-comment:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 
 .second-container-like{
   background-color: #e5f2f7;
@@ -121,6 +132,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.second-container-like:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
 }
 
 .second-container-like > a{
@@ -140,7 +155,10 @@
   align-items: center;
   justify-content: center;
 }
-
+.second-container-user:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 .second-container-user > a{
   font-weight: 900;
   font-size: 13px;
@@ -158,12 +176,14 @@
   align-items: center;
   justify-content: center;
 }
-
+.second-container-alarm:hover{
+  cursor: pointer;
+  background-color: #D4E6EC;
+}
 .second-container-alarm > a{
   font-weight: 900;
   font-size: 13px;
   color: black;
-  
 }
 
 hr{
@@ -222,6 +242,9 @@ hr{
   align-items: center;
   display: flex;
 }
+.comment-list-left p > a{
+  color: black;
+}
 .comment-list-left p , .comment-list-left img {
   margin-left: 10px;
   margin-right: 10px;
@@ -245,9 +268,14 @@ hr{
   align-items: center;
   justify-content: center;
 }
-.comment-pagination-buttons p{
+.comment-pagination-buttons button > p{
   margin-left: 10px;
   margin-right: 10px;
+}
+.comment-pagination-buttons button {
+  border: none;
+  background-color: #FCFAF7;
+  cursor: pointer;
 }
 .comment-pagination-buttons img{
   width: 40px;
