@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./../../css/notion.css" />
     <link rel="stylesheet" href="./../../css/reset.css" />
     <link rel="stylesheet" href="./../../css/myLife/mypageEditMemberInformation.css">
+    <script defer src="./../../js/myLife/mypageEditMemberInformation.js"></script>
   </head>
   <body>
 
@@ -32,24 +33,27 @@
               <p class="edit-img-p1">이미지 변경</p>
               <p class="edit-img-p2">프로필 이미지 변경</p>
               <div class="edit-img-box">
-                <form action="">
-                <img src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
-                <button class="edit-img-button-change">이미지 변경</button>
-                <button class="edit-img-button-delete">삭제</button>
-                </form>
+                
+                  <img id="mypage-profile-img" src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
+                  <button class="edit-img-button-change">이미지 변경</button>
+                  <input type="file" id="file-input-img-change" accept="image/*" style="display: none;">
+                  <button class="edit-img-button-delete">삭제</button>
+                
               </div>
             </div>
 
             <hr class="edit-hr-img-change">
+
             <!-- 배경이미지 변경  -->
             <div class="edit-back-img-change">
               <p>배경 이미지 변경</p>
               <div class="edit-back-img-box">
-                <form action="">
-                <img src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
-                <button class="edit-back-img-button-change">이미지 변경</button>
-                <button class="edit-back-img-button-delete">삭제</button>
-                </form>
+                
+                  <img src="./../../img/myLife/mdj-whiteBackground.jpg" alt="프로필 이미지">
+                  <button class="edit-back-img-button-change">이미지 변경</button>
+                  <input type="file" id="file-input-back-img-change" accept="image/*" style="display: none;">
+                  <button class="edit-back-img-button-delete">삭제</button>
+                
               </div>
             </div>
 
@@ -87,15 +91,15 @@
             <!-- 닉네임 -->
             <div class="edit-nickname-box">
               <p>닉네임</p>
-              <form action="">
+
                 <div class="edit-nickname-form-div">
-                  <form action="">
+
                     <!-- placeholder 내용은 임의로 작성하였습니다 -->
                   <input type="text" placeholder="12자 이내로 작성해주세요">
                   <button class="edit-nickname-button">중복확인</button>
-                </form>
+
                 </div>
-              </form>
+
             </div>
             
             <hr class="edit-hr-nickname">
@@ -175,10 +179,10 @@
 
             <!-- 저장 / 나가기 박스  -->
             <div class="edit-save-box">
-              <form action="">
+
                 <button class="edit-save-button"><a href="./../../HTML/myLife/mypage.html">저장</a></button>
                 <button class="edit-back-button"><a href="./../../HTML/myLife/mypage.html">나가기</a></button>
-              </form>
+
             </div>
 
 
