@@ -26,18 +26,21 @@
                     <div class="modal-main-img">
                         <img src="./../../img/main/timenotion.png" alt="">
                     </div>
+                    <div class="inquiry-modal-nickname">
+                        작성자 : 닉네임
+                    </div>
                     <form action="#">
                         <div class="inquiry-modal-title">
-                            <input type="text" name="" placeholder="제목">
+                            <input type="text" name="inquiry-modal-title" placeholder="제목">
                             <span>
-                                <select name="">
+                                <select name="inquiry-modal-select">
                                     <option value="visible">공개</option>
                                     <option value="invisible">비공개</option>
                                 </select>
                             </span>
                         </div>
                         <div class="inquiry-modal-content">
-                            <textarea name="" cols="50" rows="10" placeholder="내용" style="resize: none;"></textarea>
+                            <textarea name="inquiry-modal-content" cols="50" rows="10" placeholder="내용" style="resize: none;"></textarea>
                         </div>
                         <div class="inquiry-modal-btns">
                             <button type="submit">등록</button>
@@ -63,7 +66,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -75,7 +78,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -87,7 +90,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -99,7 +102,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -111,7 +114,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -123,7 +126,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -135,7 +138,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -147,7 +150,7 @@
                 <div class="contents-prev-content">
                     <span class="contents-number">7</span>
                     <span class="contents-title">
-                        <a href="community_detail.html">우리 모두 화이팅^^~</a>
+                        <button type="button" class="inquiry-content-button">우리 모두 화이팅^^~</button>
                     </span>
                 </div>
                 <div class="contents-next-content">
@@ -167,6 +170,28 @@
         </div>
         <div class="inquiry-banner banner">
             <a href="#"><img src="./../../img/community/community_banner2.png" alt="배너이미지"></a>
+        </div>
+        <div id="inquiry-modal-answer">
+            <div class="modal-main-img">
+                <img src="./../../img/main/timenotion.png" alt="">
+            </div>
+            <div class="inquiry-modal-answer-title-box">
+                <span class="inquiry-modal-answer-title">문의 제목</span>
+                <div class="inquiry-modal-answer-visibility">공개</div>
+                <div class="inquiry-modal-answer-content">
+                    물결이 부서지는 바다 위에 서서, 나는 먼 해안을 바라보고 있었다. 바람이 내 머리칼을 쓸고 지나가면서 자유로움의 느낌이 내 몸 전체를 감싸안았다.
+                </div>
+            </div>
+            <div class="inquiry-modal-answer-answer">
+                <p>답변</p>
+                <div class="inquiry-modal-answer-realAnswer">
+                    답변 전
+                </div>
+            </div>
+            <div class="inquiry-modal-answer-btns">
+                <button type="button" class="inquiry-modal-answer-delete">삭제</button>
+                <button type="button" class="inquiry-modal-answer-exit">닫기</button>
+            </div>
         </div>
     </div>
 </body>
