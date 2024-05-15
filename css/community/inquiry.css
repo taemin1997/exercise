@@ -34,10 +34,9 @@ button[type="button"]:hover{
     position: absolute;
     right: 10px;
     top: 20px;
-    font-size: 14px;
 }
 .inquiry-button button[type="button"]{
-    font-size: 14px;
+    font-size: 11px;
 }
 .inquiry-selector{
     margin-bottom: 10px;
@@ -72,17 +71,26 @@ button[type="button"]:hover{
     float: left;
     width: 52%;
     margin-bottom: 10px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .inquiry-modal-title input[type="text"]{
     width: 180px;
     height: 30px;
+    padding-left: 10px;
 } 
 .inquiry-modal-title span{
     float: right;
+    
+}
+.inquiry-modal-content textarea{
+    padding-left: 10px;
+    padding-top: 2px;
 }
 .inquiry-modal-title select{
     height: 35px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.6);
 }
 .inquiry-modal-btns{
     margin: 30px auto 0 auto;
@@ -92,21 +100,23 @@ button[type="button"]:hover{
     justify-content: space-around ;
 }
 .inquiry-modal-btns button[type="button"]{
-    font-size: 18px;
+    font-size: 15px;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     /* border: 1px solid black; */
     border-radius: 6px;
-    height: 30px;
-    width: 70px;
+    height: 25px;
+    width: 60px;
 }
 .inquiry-modal-btns button[type="submit"]{
-    font-size: 18px;
+    font-size: 15px;
     border: none;
     background-color: rgba(0, 0, 0, 0.1 );
     /* border: 1px solid black; */
     border-radius: 6px;
-    height: 30px;
-    width: 70px;
+    height: 25px;
+    width: 60px;
+    text-align: center;
 }
 .inquiry-modal-btns button[type="button"]:hover{
     cursor: pointer;
@@ -125,7 +135,7 @@ button[type="button"]:hover{
 }
 .inquiry-title button{
     margin-left: 15px;
-    color: rgba(126, 143, 216);
+    color: rgb(72, 100, 226);
 }
 .notification-title{
     opacity: 0.5;
@@ -155,7 +165,6 @@ button[type="button"]:hover{
     /* font-weight: 550; */
     font-family: 'Noto Sans KR';
 }
-
 .contents-form{
     height: 48px;
     background-color: rgba(0, 0, 0, 0.1);
@@ -196,17 +205,52 @@ button[type="button"]:hover{
 }
 .inquiry-banner{
     height: 175px;
+    width: 900px;
+    /* width: 100%; */
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    /* right:900px; */
+    /* border: 1px solid black; */
 }
 .inquiry-banner img{
-    width: 100%;
+    width: 900px;
+    /* width: 100%; */
     height: 175px;
     border-radius: 6px;
+    /* border: 1px solid red; */
+}
+.inquriy-banner-img{
+    width: 900px;
+    height: 175px;
+    position: relative;
+    /* right: 1800px; */
+    /* overflow: hidden; */
+}
+.prev, .next{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 50%;
+    bottom: 275px;
+    cursor: pointer;
+}
+.inquiry-prev{
+    left: 23px;
+}
+.inquiry-next{
+    right: 39px;
 }
 #inquiry-modal-answer{
     box-shadow: 1px 1px 10px 2px gray;
     display: none;
     width: 680px;
     height: 360px;
+    border-radius: 6px;
     /* border: 1px solid black; */
     position: absolute;
     right: 16%;
@@ -219,7 +263,7 @@ button[type="button"]:hover{
     /* flex-direction: column; */
     width: 80%;
     /* border: 1px solid black; */
-    margin: 20px auto 30px auto;
+    margin: 15px auto 60px auto;
 }
 .inquiry-modal-answer-title{
     font-size: 25px;
@@ -259,19 +303,22 @@ button[type="button"]:hover{
     justify-content: space-around ;
 }
 .inquiry-modal-answer-delete{
-    font-size: 18px;
+    font-size: 15px;
+    text-align: center;
     background-color: rgba(0, 0, 0, 0.1);
     /* border: 1px solid black; */
     border-radius: 6px;
-    height: 30px;
-    width: 70px;
+    height: 25px;
+    width: 60px;
+    font-weight: 600;
 }
 .inquiry-modal-answer-exit{
-    font-size: 18px;
-    border: none;
-    background-color: rgba(0, 0, 0, 0.1 );
+    font-size: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
     /* border: 1px solid black; */
     border-radius: 6px;
-    height: 30px;
-    width: 70px;
+    height: 25px;
+    width: 60px;
+    font-weight: 600;
 }
